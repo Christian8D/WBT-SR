@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47AC1A5A2132195200AB12B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC1A592132195200AB12B9 /* AppDelegate.swift */; };
+		47AC1A5C2132195200AB12B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC1A5B2132195200AB12B9 /* ViewController.swift */; };
+		47AC1A5F2132195200AB12B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AC1A5D2132195200AB12B9 /* Main.storyboard */; };
+		47AC1A622132195200AB12B9 /* WBT_SR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47AC1A602132195200AB12B9 /* WBT_SR.xcdatamodeld */; };
+		47AC1A642132195300AB12B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AC1A632132195300AB12B9 /* Assets.xcassets */; };
+		47AC1A672132195300AB12B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AC1A652132195300AB12B9 /* LaunchScreen.storyboard */; };
+		AA5A4AA4BACCA2669DFB79B9 /* Pods_WBT_SR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132A2EF270EC210FCDB560FF /* Pods_WBT_SR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		132A2EF270EC210FCDB560FF /* Pods_WBT_SR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBT_SR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AC1A562132195200AB12B9 /* WBT-SR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WBT-SR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AC1A592132195200AB12B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47AC1A5B2132195200AB12B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47AC1A5E2132195200AB12B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47AC1A612132195200AB12B9 /* WBT_SR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WBT_SR.xcdatamodel; sourceTree = "<group>"; };
+		47AC1A632132195300AB12B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47AC1A662132195300AB12B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47AC1A682132195300AB12B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6FBBAA294BA4D1E5EE1AA1 /* Pods-WBT-SR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBT-SR.release.xcconfig"; path = "Pods/Target Support Files/Pods-WBT-SR/Pods-WBT-SR.release.xcconfig"; sourceTree = "<group>"; };
+		56EDB1186DF9A318B5E93F18 /* Pods-WBT-SR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBT-SR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WBT-SR/Pods-WBT-SR.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47AC1A532132195200AB12B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5A4AA4BACCA2669DFB79B9 /* Pods_WBT_SR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27671491BF0A9267755F192F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56EDB1186DF9A318B5E93F18 /* Pods-WBT-SR.debug.xcconfig */,
+				4E6FBBAA294BA4D1E5EE1AA1 /* Pods-WBT-SR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47AC1A4D2132195200AB12B9 = {
+			isa = PBXGroup;
+			children = (
+				47AC1A582132195200AB12B9 /* WBT-SR */,
+				47AC1A572132195200AB12B9 /* Products */,
+				27671491BF0A9267755F192F /* Pods */,
+				6FD0E06CC642BED2527F16CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47AC1A572132195200AB12B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47AC1A562132195200AB12B9 /* WBT-SR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47AC1A582132195200AB12B9 /* WBT-SR */ = {
+			isa = PBXGroup;
+			children = (
+				47AC1A592132195200AB12B9 /* AppDelegate.swift */,
+				47AC1A5B2132195200AB12B9 /* ViewController.swift */,
+				47AC1A5D2132195200AB12B9 /* Main.storyboard */,
+				47AC1A632132195300AB12B9 /* Assets.xcassets */,
+				47AC1A652132195300AB12B9 /* LaunchScreen.storyboard */,
+				47AC1A682132195300AB12B9 /* Info.plist */,
+				47AC1A602132195200AB12B9 /* WBT_SR.xcdatamodeld */,
+			);
+			path = "WBT-SR";
+			sourceTree = "<group>";
+		};
+		6FD0E06CC642BED2527F16CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				132A2EF270EC210FCDB560FF /* Pods_WBT_SR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47AC1A552132195200AB12B9 /* WBT-SR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AC1A6B2132195300AB12B9 /* Build configuration list for PBXNativeTarget "WBT-SR" */;
+			buildPhases = (
+				7D29754C7CDE2B437C83DE55 /* [CP] Check Pods Manifest.lock */,
+				47AC1A522132195200AB12B9 /* Sources */,
+				47AC1A532132195200AB12B9 /* Frameworks */,
+				47AC1A542132195200AB12B9 /* Resources */,
+				E9355110C76A3AF610A9A3D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WBT-SR";
+			productName = "WBT-SR";
+			productReference = 47AC1A562132195200AB12B9 /* WBT-SR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47AC1A4E2132195200AB12B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Christian Cosio";
+				TargetAttributes = {
+					47AC1A552132195200AB12B9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 47AC1A512132195200AB12B9 /* Build configuration list for PBXProject "WBT-SR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47AC1A4D2132195200AB12B9;
+			productRefGroup = 47AC1A572132195200AB12B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47AC1A552132195200AB12B9 /* WBT-SR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47AC1A542132195200AB12B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AC1A672132195300AB12B9 /* LaunchScreen.storyboard in Resources */,
+				47AC1A642132195300AB12B9 /* Assets.xcassets in Resources */,
+				47AC1A5F2132195200AB12B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D29754C7CDE2B437C83DE55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WBT-SR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9355110C76A3AF610A9A3D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WBT-SR/Pods-WBT-SR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyTimer/SwiftyTimer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaMQTT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTimer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WBT-SR/Pods-WBT-SR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47AC1A522132195200AB12B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AC1A5C2132195200AB12B9 /* ViewController.swift in Sources */,
+				47AC1A5A2132195200AB12B9 /* AppDelegate.swift in Sources */,
+				47AC1A622132195200AB12B9 /* WBT_SR.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47AC1A5D2132195200AB12B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AC1A5E2132195200AB12B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47AC1A652132195300AB12B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AC1A662132195300AB12B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47AC1A692132195300AB12B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47AC1A6A2132195300AB12B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47AC1A6C2132195300AB12B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EDB1186DF9A318B5E93F18 /* Pods-WBT-SR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4VA4D8RAA;
+				INFOPLIST_FILE = "WBT-SR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Christian.WBT-SR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47AC1A6D2132195300AB12B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6FBBAA294BA4D1E5EE1AA1 /* Pods-WBT-SR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4VA4D8RAA;
+				INFOPLIST_FILE = "WBT-SR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Christian.WBT-SR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47AC1A512132195200AB12B9 /* Build configuration list for PBXProject "WBT-SR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AC1A692132195300AB12B9 /* Debug */,
+				47AC1A6A2132195300AB12B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AC1A6B2132195300AB12B9 /* Build configuration list for PBXNativeTarget "WBT-SR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AC1A6C2132195300AB12B9 /* Debug */,
+				47AC1A6D2132195300AB12B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		47AC1A602132195200AB12B9 /* WBT_SR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				47AC1A612132195200AB12B9 /* WBT_SR.xcdatamodel */,
+			);
+			currentVersion = 47AC1A612132195200AB12B9 /* WBT_SR.xcdatamodel */;
+			path = WBT_SR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 47AC1A4E2132195200AB12B9 /* Project object */;
+}
